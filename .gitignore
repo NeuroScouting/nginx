@@ -1,0 +1,10 @@
+*.deb
+*.log
+*.swp
+*.swo
+build-*/
+*.debhelper
+*.substvars
+debian/files
+nginx-*/
+*.changes
