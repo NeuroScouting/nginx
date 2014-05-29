@@ -1,0 +1,3 @@
+[submodule "debian/modules/nginx-push-stream-module"]
+	path = debian/modules/nginx-push-stream-module
+	url = https://github.com/wandenberg/nginx-push-stream-module
