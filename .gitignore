@@ -5,6 +5,7 @@
 build-*/
 *.debhelper
 *.substvars
-debian/files
-nginx-*/
+nginx-1.6.0/debian/files
+nginx-1.6.0/debian/nginx/
+nginx-1.6.0/debian/nginx-*/
 *.changes
