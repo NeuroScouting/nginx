@@ -1,3 +1,9 @@
+nginx (1.6.0-2+precise0-push-stream) precise; urgency=medium
+
+  * Enable push-stream module
+
+ -- Ricardo Baratto <ricardo@neuroscouting.com>  Thu, 29 May 2014 17:16:00 -0400
+
 nginx (1.6.0-1+precise0) precise; urgency=medium
 
   * New upstream release (1.6.0)
