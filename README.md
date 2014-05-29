@@ -63,5 +63,5 @@ nginx: configuration file /tmp/nginx/nginx-1.6.0/debian/modules/nginx-push-strea
 
 clean things up:
 ```shell
-git clean -df
+git clean -dfx
 ```
