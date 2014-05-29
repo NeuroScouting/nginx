@@ -49,7 +49,6 @@ nginx -V 2>&1 | grep -i --color push-stream
 
 and verify that nginx likes push stream directives:
 ```shell
-# assuming you're in the folder where you unpacked the nginx source
 mkdir logs
 nginx -p `pwd` -c nginx-1.6.0/debian/modules/nginx-push-stream-module/misc/nginx.conf -t
 ```
@@ -60,4 +59,9 @@ nginx: [alert] could not open error log file: open() "/var/log/nginx/error.log" 
 2014/05/29 15:33:04 [info] 25354#0: Using 102400KiB of shared memory for push stream module on zone: push_stream_module in /tmp/nginx/nginx-1.6.0/debian/modules/nginx-push-stream-module/misc/nginx.conf:21
 nginx: the configuration file /tmp/nginx/nginx-1.6.0/debian/modules/nginx-push-stream-module/misc/nginx.conf syntax is ok
 nginx: configuration file /tmp/nginx/nginx-1.6.0/debian/modules/nginx-push-stream-module/misc/nginx.conf test is successful
+```
+
+clean things up:
+```shell
+git clean -df
 ```
