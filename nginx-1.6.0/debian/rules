@@ -61,7 +61,6 @@ light_configure_flags := \
 			--without-http_split_clients_module \
 			--without-http_ssi_module \
 			--without-http_userid_module \
-			--without-http_uwsgi_module \
 			--add-module=$(MODULESDIR)/nginx-echo \
 			--add-module=$(MODULESDIR)/nginx-push-stream-module
 
